@@ -1,6 +1,6 @@
 import requests
 import argparse
-keys=['数据库','database'] #这里放文件名中要有的关键字
+keys=['模式识别','pattern recognition'] #这里放文件名中要有的关键字
 search='ustc' #这里放搜索关键字
 parser = argparse.ArgumentParser(description='Ustc-course Spyder')
 parser.add_argument('token', help='token for your github account', type=str)
